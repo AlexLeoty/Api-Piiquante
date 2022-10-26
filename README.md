@@ -9,6 +9,14 @@ C’est pourquoi ce nouveau client, la marque de condiments à base de piment Pi
 Installation
 Vous pouvez cloner ce repository, afin de récupérer les dossiers frontend et backend de l'Application.
 
+Connection à la base de donnée:
+Avec un compte( readOnly) :
+MONGO_DB_USER=TesteurProjet
+MONGO_DB_USER_MDP=azerty6363
+
+TOKEN :
+Fichier .env_example: TOKEN_SECRET="RANDOM_KEY"
+
 Lancement du server
 
 cd backend
